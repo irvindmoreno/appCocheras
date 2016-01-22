@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/usuario"
+            android:title="Iniciar Sesión" />
+        <item
+            android:id="@+id/nav_carro"
+            android:icon="@drawable/carro"
+            android:title="Historial De Cocheras" />
+        <item
+            android:id="@+id/nav_cocheras_favoritas"
+            android:icon="@drawable/cocheras_favoritas"
+            android:title="Cocheras Favoritas" />
+        <item
+            android:id="@+id/nav_nosotros"
+            android:icon="@drawable/ic_class_24dp"
+            android:title="Nosotros" />
+    </group>
+
+
+
+</menu>

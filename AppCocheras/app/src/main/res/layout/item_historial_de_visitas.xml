@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:id="@+id/LinearLayotFavoritos"
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            >
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="16dp"
+                android:text="Luchito"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/colorLetraPrimary"
+                />
+            <TextView
+                android:id="@+id/txtDireccion"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="San Miguel"
+                android:gravity="center"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/estrella" />
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/estrella" />
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/estrella" />
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/estrella" />
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="15dp"
+                    android:background="@mipmap/estrella" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtFecha"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="San Miguel"
+                android:gravity="center"
+                android:textSize="14dp"
+                android:layout_marginTop="7dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lineaHidtorial"
+        />
+
+
+
+</LinearLayout>
+

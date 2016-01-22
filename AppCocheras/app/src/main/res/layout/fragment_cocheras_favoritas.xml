@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:onClick="clickText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tus Cocheras Favoritas"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="6dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/id_fragmento_cocheras_favoritas"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+</LinearLayout>
