@@ -1,0 +1,29 @@
+<!--
+Nomenclatura de nombres:
+primero se pondrá las iniciales del layout al que pertenece más un guión bajo,
+seguido de las iniciales del tipo de elemento,
+después el nombre del elemento,
+finalmente un valor o atributo del elemento (opcional)
+Ej:
+layout->activity_main.xml->Button->btnLogin
+<string name="am_btnLogin">Login</string>
+
+layout->activity_main.xml->Button->btnLogin (mensaje de error)
+<string name="am_btnLogin_error">Login</string>
+
+Nomenclatura de elementos:
+lbl: TextView
+Txt: EditText
+btn: Button
+rb:  RadioButton
+rg:  RadioGroup
+sb:  SeekBar
+sw:  Switch
+ly:  Layout
+-->
+<resources>
+    <string name="app_name">cochera</string>
+
+    <!-- Activity Main (AM)-->
+    <string name="am_lblLogin">Login</string>
+</resources>

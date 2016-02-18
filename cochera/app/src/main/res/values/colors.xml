@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Nomenclatura de nombres:
+los colores deben ser en inglés sin la palabra "color" y NO deben ser definidos sólo para un elemento o layout
+
+Ejemplo:
+para el color de fondo de la aplicación:
+<color name="teal">#009688</color> (Bien)
+<color name="background">#009688</color> (Mal)
+
+Si hubiera una variante del color (más oscuro o claro, se usa su valor numérico)
+<color name="teal900">#004D40</color> (Bien)
+<color name="tealOcuro">#004D40</color> (Mal)
+
+https://www.google.com/design/spec/style/color.html#color-color-palette
+-->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

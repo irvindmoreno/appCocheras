@@ -1,0 +1,29 @@
+<!--
+Nomenclatura de nombres:
+primero se pondrá las iniciales del layout al que pertenece más un guión bajo,
+seguido de las iniciales del tipo de elemento,
+después el nombre del elemento,
+finalmente un valor o atributo del elemento
+Ej:
+layout->activity_main.xml->Button->btnLogin->marginLeft
+<string name="am_btnLogin_margin_left">10dp</string>
+
+layout->activity_main.xml->Button->btnLogin->paddingTop
+<string name="am_btnLogin_margin_top">10dp</string>
+
+layout->activity_main.xml->Button->btnLogin->margin (margin de manera vertical)
+*en este caso primero es VERTICAL y luego margin o padding
+<string name="am_btnLogin_vertical_margin">Login</string>
+
+-->
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Activity MAIN (AM)-->
+    <dimen name="am_btnLogin_margin_bottom">20dp</dimen>
+    <dimen name="am_btnLogin_margin_top">10dp</dimen>
+    <dimen name="am_btnLogin_horizontal_margin">15dp</dimen>
+
+</resources>
